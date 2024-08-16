@@ -1,0 +1,220 @@
+body {
+    background-color:black;
+    color: white ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5mm ;
+    text-align: center;
+}
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+.back-home {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+}
+main {
+    padding: 20px;
+}
+.cinema{
+  width: 521px;
+  height: 151px;
+  left: 69px;
+  top: 96px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Aboreto';
+  font-style: normal;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.cinema-png{
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: 400px;
+  top: 75px;
+}
+
+.coraline{
+    width: 228px;
+    height: 342.1px;
+    left:auto;
+}
+
+.barbie{
+    width: 228px;
+    height: 341px;
+    left: auto;
+}
+.menino{
+    width: 227.27px;
+    height: 341px;
+    left: auto;
+}
+
+.sherlock{
+    width: 228px;
+    height: 341px;
+    left: auto;
+}
+
+.up{
+    width: 228px;
+    height: 341px;
+    left: auto;
+}
+
+.retrato{
+    width: 228px;
+    height: 341px;
+    left: 2000px;
+}
+
+.lisbelaimg{
+    width: 332px;
+    height: 498px;
+    top: 393px;
+}
+
+.lisbelatext{
+    width: 310px;
+    height: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Aboreto';
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.hoje-20h{
+    width: 127px;
+    height: 65px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Aboreto';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.jhonnyimg{
+  width: 332px;
+  height: 498px;
+  top: 393px;
+}
+
+.jhonnytext{
+    width: 324px;
+    height: 30px;
+    color:white;
+    font-family: 'Aboreto';
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.hoje-21h{
+    width: 237px;
+    height: 55px;
+    top: 940px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Aboreto';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.amanha-21h{
+    width: 332px;
+    height: 55px;
+    left: 769px;
+    top: 940px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Aboreto';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.cheiroimg{
+    width: 332px;
+    height: 498px;
+    top: 393px;
+}
+
+.cheirotext{
+    width: 235px;
+    height: 30px;
+    top: 940px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Aboreto';
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.amanha-15h{
+    width: 336px;
+    height: 54px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Aboreto';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+.divlisbela, .divjhonny, .divcheiro {
+    flex: 1 1 200px; /* Tamanho mínimo e máximo */
+}

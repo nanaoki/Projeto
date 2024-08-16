@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="btn-search">
+        <button type="submit"> 
+            <input type="search" placeholder="Pesquisar...">
+            <input type="image" src="lupa (1).png" alt="search-icon" width="10" height="10">
+        </button>
+        </div>
+    </nav>
+    
+    <header>
+        <nav>
+        <form>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">SOBRE</a></li>
+                <li><a href="library.html">BIBLIOTECA</a></li>
+                <li><a href="community.html">COMUNIDADE</a></li>
+                <li><a href="contact.html">CONTATO</a></li>
+            </ul>
+        </form>
+        </nav>
+    </header>
+    
+    <form id="contactForm">
+        <h2>Contact Us</h2>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+        <div id="formResponse"></div>
+    </form>
+
+    <script src="script.js"></script>
+    
+    <footer>
+        <p>&copy; 2024 CYGNUS </p>
+        <p>SESI IBURA - RECIFE PE</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

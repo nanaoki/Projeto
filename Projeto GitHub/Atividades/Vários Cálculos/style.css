@@ -1,0 +1,28 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(145, 153, 224);
+    text-align: center;
+  }
+ 
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+ 
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+ 
+  button {
+    padding: 10px;
+    background-color: #4c74af;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+ 
+  #results {
+    margin-top: 20px;
+  }

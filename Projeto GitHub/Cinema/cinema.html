@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema</title>
+    <link rel="stylesheet" href="stylecinema.css">
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5mm ;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .back-home {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: red;
+        }
+        main {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="cinema">Cinema</h1>
+        <img src="imagens/cinema.png" class="cinema-png">
+        <p>Escolha uma cidade para ver os filmes em exibição.</p>
+    </header>
+    <nav>
+        <a href="#rio">Rio de Janeiro</a>
+        <a href="#sao-paulo">São Paulo</a>
+    </nav>
+    <main>
+        <section id="cinema">
+            <h2>Em breve</h2>
+            <img src="imagens/coraline.jpeg" class="coraline">
+            <img src="imagens/barbie e as tres mosqueteiras.jpeg" class="barbie">
+            <img src="imagens/o menino da porteira.jpeg" class="menino">
+            <img src="imagens/sherlock holmes.jpg" class="sherlock">
+            <img src="imagens/up.jpeg" class="up">
+            <img src="imagens/o retrato de dorian gray.jpeg" class="retrato">
+        </section>
+        <section id="rio" style="display: none;">
+            <h2>Rio de Janeiro</h2>
+            <a href="#cinema" class="back-home">ÍNICIO</a>
+            <div class="flex-container">
+                <div class="divlisbela">
+                    <img src="imagens/lisbela e o prisioneiro.jpeg" class="lisbelaimg">
+                    <p class="lisbelatext">LISBELA E O PRISIONEIRO</p>
+                    <p class="hoje-20h">Hoje às 20:00h</p>
+                </div>
+    
+                <div class="divjhonny">
+                    <img src="imagens/meu nome não é johnny.jpeg" class="jhonnyimg">
+                    <p class="jhonnytext">MEU NOME NÃO É JHONNY</p>
+                    <p class="hoje-21h">Hoje às 21:00h</p>
+                </div>
+    
+                <div class="divcheiro">
+                    <img src="imagens/o cheiro do ralo.jpeg" class="cheiroimg">
+                    <p class="cheirotext">O CHEIRO DO RALO</p>
+                    <p class="amanha-15h">Amanhã às 15:00h</p>    
+                </div>
+            </div>
+        </section>
+        <section id="sao-paulo" style="display: none;">
+            <h2>São Paulo</h2>
+            <a href="#cinema" class="back-home">ÍNICIO</a>
+            <div class="flex-container">
+                <div class="divlisbela">
+                    <img src="imagens/lisbela e o prisioneiro.jpeg" class="lisbelaimg">
+                    <p class="lisbelatext">LISBELA E O PRISIONEIRO</p>
+                    <p class="hoje-20h">Hoje às 20:00h</p>
+                </div>
+    
+                <div class="divjhonny">
+                    <img src="imagens/meu nome não é johnny.jpeg" class="jhonnyimg">
+                    <p class="jhonnytext">MEU NOME NÃO É JHONNY</p>
+                    <p class="amanha-21h">Amanhã às 21:00h</p>
+                </div>
+    
+                <div class="divcheiro">
+                    <img src="imagens/o cheiro do ralo.jpeg" class="cheiroimg">
+                    <p class="cheirotext">O CHEIRO DO RALO</p>
+                    <p class="amanha-15h">Amanhã às 15:00h</p>    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
